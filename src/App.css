@@ -1,3 +1,202 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@media only screen and (max-width: 1200px) {
+    #project-gallery {
+        position: unset!important;
+        top: unset!important;
+        left: unset!important;
+        transform: unset!important;
+        max-width: unset!important;
+        margin-bottom: 1em!important;
+    }
+
+    main {
+        margin-top: 9em;
+    }
+
+    #project-title {
+        position: unset!important;
+        top: unset!important;
+    }
+
+    #project-text {
+        margin: 3em 0 8em 0!important;
+    }
+}
+
+#project-title {
+    position: sticky;
+    top: 3em;
+}
+
+#project-gallery {
+    margin-bottom: 8em;
+}
+
+#project-text {
+    margin: 3em 1em 8em 1em
+}
+
+#about-text, #about-tables {
+    margin: 3em 1em;
+}
+
+#project-gallery {
+    position: absolute;
+    top: 3em;
+    left: calc(75ch + 50%);
+    transform: translate(-90%, 0%);
+    width: 100%;
+    max-width: 50vw;
+}
+
+#project-gallery img {
+    padding-bottom: 0.5em;
+}
+
+#project-title-mobile {
+    margin-bottom: 0.6em;
+}
+
+#about-text, #about-tables, #project-text {
+    max-width: 70ch;
+}
+
+.title {
+    font-weight: bold;
+}
+
+body {
+    background-color: white;
+    font-family: "EB Garamond", Times, serif;
+}
+
+.project-floating {
+    position: absolute;
+    max-width: 15%;
+    z-index: 1;
+}
+
+.App {
+    margin: 2%;
+}
+
+nav {
+    font-size: 2em;
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    text-align: right;
+    background-color: white;
+    display: contents;
+}
+
+.navlink-ctn {
+    position: fixed;
+    right: 2%;
+    z-index: 100;
+}
+
+#projects-navlink-ctn {
+    top: 2%
+}
+
+#about-navlink-ctn {
+    top: calc(2em + 2%)
+}
+
+.navlink:link, .navlink:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#name {
+    font-size: 3em;
+    z-index: 0;
+    position: fixed;
+    text-decoration: none;
+    text-align: center;
+}
+
+.scaled {
+    transform: scaleY(1.5);
+    transform-origin: top;
+}
+
+.inverted {
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.body-animate {
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+.name-center {
+    left: 50%;
+    top: 50%;
+    transform: scaleY(1.5) translate(-50%, -50%);
+    transform-origin: center;
+}
+
+.name-corner {
+    right: 2%;
+    bottom: 3%;
+    transform-origin: bottom;
+}
+
+.name-bottom-center {
+    bottom: 2%;
+    transform-origin: bottom;
+    width: 100vw;
+    left: 0;
+}
+
+@keyframes mymove {
+    from {background-color: white;}
+    to {background-color: initial;}
+}
+
+#preview {
+    position: fixed;
+    z-index: -1;
+    max-width: 90%;
+}
+
+.preview-fixed {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.preview-random {
+
+}
+
+#projects {
+    max-width: 70ch;
+    border-spacing: 1em;
+}
+
+#random {
+    all: unset;
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    cursor: pointer;
+    font-size: 2em;
+    transform: scaleY(1.5);
+    text-align: right;
+    transform-origin: top;
+}
+
+#table {
+    top: 2%;
+    left: 2%;
+}
+
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +235,4 @@
     transform: rotate(360deg);
   }
 }
+*/
