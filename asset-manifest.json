@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/gatpsilva/adrianajoao/static/css/main.b47c3261.css",
-    "main.js": "/gatpsilva/adrianajoao/static/js/main.50dd5fa9.js",
+    "main.css": "/gatpsilva/adrianajoao/static/css/main.b7e4be19.css",
+    "main.js": "/gatpsilva/adrianajoao/static/js/main.a8e44aa4.js",
     "static/js/787.5cf542c2.chunk.js": "/gatpsilva/adrianajoao/static/js/787.5cf542c2.chunk.js",
-    "static/media/logo.svg": "/gatpsilva/adrianajoao/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/gatpsilva/adrianajoao/index.html",
-    "main.b47c3261.css.map": "/gatpsilva/adrianajoao/static/css/main.b47c3261.css.map",
-    "main.50dd5fa9.js.map": "/gatpsilva/adrianajoao/static/js/main.50dd5fa9.js.map",
+    "main.b7e4be19.css.map": "/gatpsilva/adrianajoao/static/css/main.b7e4be19.css.map",
+    "main.a8e44aa4.js.map": "/gatpsilva/adrianajoao/static/js/main.a8e44aa4.js.map",
     "787.5cf542c2.chunk.js.map": "/gatpsilva/adrianajoao/static/js/787.5cf542c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b47c3261.css",
-    "static/js/main.50dd5fa9.js"
+    "static/css/main.b7e4be19.css",
+    "static/js/main.a8e44aa4.js"
   ]
 }
