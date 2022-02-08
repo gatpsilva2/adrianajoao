@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gatpsilva/adrianajoao/static/css/main.b7e4be19.css",
-    "main.js": "/gatpsilva/adrianajoao/static/js/main.a8e44aa4.js",
-    "static/js/787.5cf542c2.chunk.js": "/gatpsilva/adrianajoao/static/js/787.5cf542c2.chunk.js",
-    "index.html": "/gatpsilva/adrianajoao/index.html",
-    "main.b7e4be19.css.map": "/gatpsilva/adrianajoao/static/css/main.b7e4be19.css.map",
-    "main.a8e44aa4.js.map": "/gatpsilva/adrianajoao/static/js/main.a8e44aa4.js.map",
-    "787.5cf542c2.chunk.js.map": "/gatpsilva/adrianajoao/static/js/787.5cf542c2.chunk.js.map"
+    "main.css": "/adrianajoao/static/css/main.b7e4be19.css",
+    "main.js": "/adrianajoao/static/js/main.2a959695.js",
+    "static/js/787.5cf542c2.chunk.js": "/adrianajoao/static/js/787.5cf542c2.chunk.js",
+    "index.html": "/adrianajoao/index.html",
+    "main.b7e4be19.css.map": "/adrianajoao/static/css/main.b7e4be19.css.map",
+    "main.2a959695.js.map": "/adrianajoao/static/js/main.2a959695.js.map",
+    "787.5cf542c2.chunk.js.map": "/adrianajoao/static/js/787.5cf542c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7e4be19.css",
-    "static/js/main.a8e44aa4.js"
+    "static/js/main.2a959695.js"
   ]
 }
