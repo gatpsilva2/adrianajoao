@@ -1,0 +1,137 @@
+[
+  {
+    "title": "every grain of sand in the world, between 0 and 1",
+    "url": "every_grain_of_sand",
+    "year": "2021",
+    "thumbnail": "/adrianajoao/everygrain.jpg",
+    "media": [
+      {"type": "image", "url": "/adrianajoao/everygrain.jpg"}
+    ],
+    "about_en": {
+      "format": "Vídeo HD, cor, 07’45’’, loop",
+      "synopsis": "",
+      "remarks": "for Alcazar",
+      "published": null,
+      "description": "selected pages from the contribution every grain of sand in the world, between 0 and 1 to Alcazar project, soon to be published <br/> 50 pages"
+    },
+    "color": "blue",
+    "top": 0,
+    "left": 0
+  },
+  {
+    "title": "venus flytrap",
+    "url": "venus_flytrap",
+    "year": "2020",
+    "thumbnail": "/adrianajoao/venusflytrap.jpg",
+    "media": [
+      {"type": "image", "url": "/adrianajoao/everygrain.jpg"}
+    ],
+    "about_en": {
+      "format": "Vídeo HD, cor, 07’45’’, loop",
+      "synopsis": null,
+      "remarks": null,
+      "published": null,
+      "description": null
+    },
+    "color": "yellow",
+    "top": 0,
+    "left": 0
+  },
+  {
+    "title": "Inversão",
+    "url": "inversao",
+    "year": "2019",
+    "thumbnail": "/adrianajoao/inversao.jpg",
+    "media": [
+      {"type": "image", "url": "/adrianajoao/everygrain.jpg"}
+    ],
+    "about_en": {
+      "format": "HD video, color, sound, 06'42''",
+      "synopsis": null,
+      "remarks": null,
+      "published": null,
+      "description": null
+    },
+    "color": "white",
+    "top": 0,
+    "left": 0
+  },
+  {
+    "title": "swan bones",
+    "url": "swan_bones",
+    "year": "2020",
+    "thumbnail": "/adrianajoao/swanbones.jpg",
+    "media": [
+      {"type": "embed", "url": "https://soundcloud.com/keru-not-ever/percival-pembroke-keru-not-ever-remix-for-genot-centre"},
+      {"type": "image", "url": "/adrianajoao/swanbones.jpg"},
+      {"type": "image", "url": "/adrianajoao/swanbones.jpg"}
+    ],
+    "about_en": {
+      "format": "HD video, color, stereo sound, 08'28''",
+      "synopsis": null,
+      "remarks": "for <a href='https://dose.pt/#dose5'>dose 05</a>",
+      "published": null,
+      "description": null
+    },
+    "color": "green",
+    "top": 0,
+    "left": 0
+  },
+  {
+    "title": "Untitled (burial)",
+    "url": "untitled_(burial)",
+    "year": "2019",
+    "thumbnail": "/adrianajoao/untitledburial.jpg",
+    "media": [
+      {"type": "image", "url": "/adrianajoao/everygrain.jpg"}
+    ],
+    "about_en": {
+      "format": "HD video, color, 08'49'', loop",
+      "synopsis": "The artist is buried in salt by a saline worker.",
+      "remarks": null,
+      "published": "In the collective exhibition RÉSVÉS – Castro Marim/Odeleite, at <a href='http://www.belasartes.ulisboa.pt/resves-castro-marim/'>Casa do Sal</a>",
+      "description": null
+    },
+    "color": "red",
+    "top": 0,
+    "left": 0
+  },
+  {
+    "title": "I want to see but there is something in (front of) my eyes",
+    "url": "i_want_to_see",
+    "year": "2019",
+    "thumbnail": "/adrianajoao/iwanttosee.jpg",
+    "media": [
+      {"type": "image", "url": "/adrianajoao/everygrain.jpg"}
+    ],
+    "about_en": {
+      "format": "HD video, color, sound, 14'11'', loop",
+      "synopsis": "The artist intervenes in a construction site, 7 meters below ground level, prolonging the civil foundation grid \"lines\", previously there, alternately using charcoal and spray paint, giving continuity to the actions of others. Meanwhile, several other actions are perpetuated, in an aparent arbitrary way.\n",
+      "remarks": "for <a href='https://dose.pt/#dose5'>dose 05</a>",
+      "published": "Exhibited at Faculdade de Belas-Artes da Universidade de Lisboa",
+      "description": "As três peças - I want to see but there is something in (front of) my eyes, Untitled (follow me back), Untitled - são apresentadas enquanto instalação, dispostas em três ecrãs, que se aglomeram e se correlacionam num espaço comum, onde o espetador opta por escolher o que vê e o que acaba por não ver. Os três vídeos disponibilizam-se em repetição (loop), numa sala iluminada apenas pela luz dos ecrãs e preenchida pelo som proveniente do vídeo I want to see but there is something in (front of) my eyes."
+    },
+    "color": "cyan",
+    "top": 0,
+    "left": 0
+  },
+  {
+    "title": "frail flesh volcano",
+    "url": "frail_flesh_volcano",
+    "year": "2019",
+    "thumbnail": "/adrianajoao/iwanttosee.jpg",
+    "media": [
+      {"type": "image", "url": "/adrianajoao/everygrain.jpg"}
+    ],
+    "about_en": {
+      "format": "HD video, color, sound, 14'11'', loop",
+      "synopsis": "The artist intervenes in a construction site, 7 meters below ground level, prolonging the civil foundation grid \"lines\", previously there, alternately using charcoal and spray paint, giving continuity to the actions of others. Meanwhile, several other actions are perpetuated, in an aparent arbitrary way.\n",
+      "remarks": "for <a href='https://dose.pt/#dose5'>dose 05</a>",
+      "published": "Exhibited at Faculdade de Belas-Artes da Universidade de Lisboa",
+      "description": "As três peças - I want to see but there is something in (front of) my eyes, Untitled (follow me back), Untitled - são apresentadas enquanto instalação, dispostas em três ecrãs, que se aglomeram e se correlacionam num espaço comum, onde o espetador opta por escolher o que vê e o que acaba por não ver. Os três vídeos disponibilizam-se em repetição (loop), numa sala iluminada apenas pela luz dos ecrãs e preenchida pelo som proveniente do vídeo I want to see but there is something in (front of) my eyes."
+    },
+    "color": "cyan",
+    "top": 0,
+    "left": 0
+  }
+]
