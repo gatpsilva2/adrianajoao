@@ -133,5 +133,24 @@
     "color": "cyan",
     "top": 0,
     "left": 0
+  },
+  {
+    "title": "ijsidjsidjdijfidsjfids",
+    "url": "frail_flesh_volcano",
+    "year": "2019",
+    "thumbnail": "/adrianajoao/iwanttosee.jpg",
+    "media": [
+      {"type": "image", "url": "/adrianajoao/everygrain.jpg"}
+    ],
+    "about_en": {
+      "format": "HD video, color, sound, 14'11'', loop",
+      "synopsis": "The artist intervenes in a construction site, 7 meters below ground level, prolonging the civil foundation grid \"lines\", previously there, alternately using charcoal and spray paint, giving continuity to the actions of others. Meanwhile, several other actions are perpetuated, in an aparent arbitrary way.\n",
+      "remarks": "for <a href='https://dose.pt/#dose5'>dose 05</a>",
+      "published": "Exhibited at Faculdade de Belas-Artes da Universidade de Lisboa",
+      "description": "As três peças - I want to see but there is something in (front of) my eyes, Untitled (follow me back), Untitled - são apresentadas enquanto instalação, dispostas em três ecrãs, que se aglomeram e se correlacionam num espaço comum, onde o espetador opta por escolher o que vê e o que acaba por não ver. Os três vídeos disponibilizam-se em repetição (loop), numa sala iluminada apenas pela luz dos ecrãs e preenchida pelo som proveniente do vídeo I want to see but there is something in (front of) my eyes."
+    },
+    "color": "cyan",
+    "top": 0,
+    "left": 0
   }
 ]
