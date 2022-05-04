@@ -1,5 +1,5 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.cdnfonts.com/css/nimbus-sans-l');
 @media only screen and (max-width: 1200px) {
     #project-gallery {
         position: unset!important;
@@ -19,10 +19,19 @@
         top: unset!important;
     }
 
-    #project-text {
+    #project-text, #about-main {
         margin: 3em 0 8em 0!important;
     }
 }
+
+.project-row:hover, .project-floating:hover {
+    filter: blur(1px);
+}
+
+.navlink-ctn:hover, #name:hover {
+    filter: blur(2px);
+}
+
 
 #project-title {
     position: sticky;
@@ -33,25 +42,26 @@
     margin-bottom: 8em;
 }
 
-#project-text {
+#project-text, #about-main {
     margin: 3em 1em 8em 1em
-}
-
-#about-text, #about-tables {
-    margin: 3em 1em;
 }
 
 #project-gallery {
     position: absolute;
-    top: 3em;
-    left: calc(75ch + 50%);
-    transform: translate(-90%, 0%);
+    top: 20vh;
+    /*left: calc(75ch + 50%);*/
+    right: 3vw;
+    /*transform: translate(-90%, 0%);*/
     width: 100%;
-    max-width: 50vw;
+    max-width: 47vw;
 }
 
-#project-gallery img {
+#project-gallery img, #project-gallery .project-embed {
     padding-bottom: 0.5em;
+}
+
+.project-embed {
+    width: 100%;
 }
 
 #project-title-mobile {
@@ -67,8 +77,9 @@
 }
 
 body {
-    background-color: white;
-    font-family: "EB Garamond", Times, serif;
+    color: white;
+    background-color: black;
+    font-family: "Nimbus Sans L", Helvetica, sans-serif;
 }
 
 .project-floating {
@@ -111,20 +122,27 @@ nav {
 }
 
 #name {
-    font-size: 3em;
+    font-size: 2.5em;
     z-index: 0;
     position: fixed;
     text-decoration: none;
     text-align: center;
+    color: white;
 }
 
-.scaled {
-    transform: scaleY(1.5);
-    transform-origin: top;
+.mb-3em {
+    margin-bottom: 3em;
+}
+
+.mb-2em {
+    margin-bottom: 2em;
+}
+
+.mb-1em {
+    margin-bottom: 1em;
 }
 
 .inverted {
-    color: white;
     mix-blend-mode: difference;
 }
 
@@ -136,8 +154,7 @@ nav {
 .name-center {
     left: 50%;
     top: 50%;
-    transform: scaleY(1.5) translate(-50%, -50%);
-    transform-origin: center;
+    transform: translate(-50%, -50%);
 }
 
 .name-corner {
@@ -186,9 +203,7 @@ nav {
     top: 2%;
     cursor: pointer;
     font-size: 2em;
-    transform: scaleY(1.5);
     text-align: right;
-    transform-origin: top;
 }
 
 #table {
