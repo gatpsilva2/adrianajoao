@@ -1,9 +1,9 @@
 [ { "title": "every grain of sand in the world, between 0 and 1"
   , "url": "every_grain_of_sand"
   , "year": "2021"
-  , "thumbnail": "/adrianajoao/everygrain.jpg"
+  , "thumbnail": "/everygrain.jpg"
   , "media": [ { "type": "image"
-               , "url": "/adrianajoao/everygrain.jpg"
+               , "url": "/everygrain.jpg"
                }
              ]
   , "about_en": { "format": "Vídeo HD, cor, 07’45’’, loop"
@@ -19,9 +19,9 @@
 , { "title": "venus flytrap"
   , "url": "venus_flytrap"
   , "year": "2020"
-  , "thumbnail": "/adrianajoao/venusflytrap.jpg"
+  , "thumbnail": "/venusflytrap.jpg"
   , "media": [ { "type": "image"
-               , "url": "/adrianajoao/everygrain.jpg"
+               , "url": "/everygrain.jpg"
                }
              ]
   , "about_en": { "format": "Vídeo HD, cor, 07’45’’, loop"
@@ -37,9 +37,9 @@
 , { "title": "Inversão"
   , "url": "inversao"
   , "year": "2019"
-  , "thumbnail": "/adrianajoao/inversao.jpg"
+  , "thumbnail": "/inversao.jpg"
   , "media": [ { "type": "image"
-               , "url": "/adrianajoao/everygrain.jpg"
+               , "url": "/everygrain.jpg"
                }
              ]
   , "about_en": { "format": "HD video, color, sound, 06'42''"
@@ -55,10 +55,10 @@
 , { "title": "swan bones"
   , "url": "swan_bones"
   , "year": "2020"
-  , "thumbnail": "/adrianajoao/swanbones.jpg"
+  , "thumbnail": "/swanbones.jpg"
   , "media": [ {"type": "embed", "url": "https://soundcloud.com/keru-not-ever/percival-pembroke-keru-not-ever-remix-for-genot-centre"}
-             , {"type": "image", "url": "/adrianajoao/swanbones.jpg"}
-             , {"type": "image", "url": "/adrianajoao/swanbones.jpg"}
+             , {"type": "image", "url": "/swanbones.jpg"}
+             , {"type": "image", "url": "/swanbones.jpg"}
              ]
   , "about_en": { "format": "HD video, color, stereo sound, 08'28''"
                 , "synopsis": null
@@ -73,8 +73,8 @@
   { "title": "Untitled (burial)"
   , "url": "untitled_(burial)"
   , "year": "2019"
-  , "thumbnail": "/adrianajoao/untitledburial.jpg"
-  , "media": [ { "type": "image", "url": "/adrianajoao/everygrain.jpg"
+  , "thumbnail": "/untitledburial.jpg"
+  , "media": [ { "type": "image", "url": "/everygrain.jpg"
                }
              ]
   , "about_en": { "format": "HD video, color, 08'49'', loop"
@@ -90,8 +90,8 @@
   {"title": "I want to see but there is something in (front of) my eyes"
   , "url": "i_want_to_see"
   , "year": "2019"
-  , "thumbnail": "/adrianajoao/iwanttosee.jpg"
-  , "media": [ { "type": "image", "url": "/adrianajoao/everygrain.jpg"
+  , "thumbnail": "/iwanttosee.jpg"
+  , "media": [ { "type": "image", "url": "/everygrain.jpg"
                }
              ]
   , "about_en": { "format": "HD video, color, sound, 14'11'', loop"
@@ -107,8 +107,8 @@
 , { "title": "frail flesh volcano"
   , "url": "frail_flesh_volcano"
   , "year": "2019"
-  , "thumbnail": "/adrianajoao/iwanttosee.jpg"
-  , "media": [ {"type": "image", "url": "/adrianajoao/everygrain.jpg"} ]
+  , "thumbnail": "/iwanttosee.jpg"
+  , "media": [ {"type": "image", "url": "/everygrain.jpg"} ]
   , "about_en": {
       "format": "HD video, color, sound, 14'11'', loop"
      ,"synopsis": "The artist intervenes in a construction site, 7 meters below ground level, prolonging the civil foundation grid \"lines\", previously there, alternately using charcoal and spray paint, giving continuity to the actions of others. Meanwhile, several other actions are perpetuated, in an aparent arbitrary way.\n"
