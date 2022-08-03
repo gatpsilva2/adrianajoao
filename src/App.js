@@ -72,8 +72,7 @@ function App() {
             </nav>
             <NavLink
                 id="name"
-                className={"inverted " + (isHome(useLocation().pathname) ? "name-center" :
-                    (isMobile ? "name-bottom-center" : "name-corner"))}
+                className={"inverted name-corner"}
                 to="/"
             >
                 ADRIANA JOÃO
