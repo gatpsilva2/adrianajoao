@@ -43,22 +43,18 @@ function App() {
         <div className="App">
             <Routes>
                 <Route path="/" element={<Index projects={projects}/>}/>
-                <Route path="adrianajoao" element={<Index projects={projects}/>}/>
 
-                <Route path="projects" element={<Projects projects={projects}/>}/>
-                <Route path="adrianajoao/projects" element={<Projects projects={projects}/>}/>
+                <Route path="/projects" element={<Projects projects={projects}/>}/>
 
-                {projects.map(p => <Route key={p.url} path={`projects/${p.url}`} element={<Project project={p}/>}/>)}
-                {projects.map(p => <Route key={p.url} path={`adrianajoao/projects/${p.url}`} element={<Project project={p}/>}/>)}
+                {projects.map(p => <Route key={p.url} path={`/projects/${p.url}`} element={<Project project={p}/>}/>)}
 
-                <Route path="about" element={<About/>}/>
-                <Route path="adrianajoao/about" element={<About/>}/>
+                <Route path="/about" element={<About/>}/>
             </Routes>
             <nav>
                 <div id="projects-navlink-ctn" className="navlink-ctn inverted">
                     <NavLink
                         className="navlink"
-                        to="adrianajoao/projects"
+                        to="/projects"
                         style={({isActive}) => ({textDecoration: isActive ? "underline" : "none"})}
                     >
                         PROJECTS
@@ -67,7 +63,7 @@ function App() {
                 <div id="about-navlink-ctn" className="navlink-ctn inverted">
                     <NavLink
                         className="navlink"
-                        to="adrianajoao/about"
+                        to="/about"
                         style={({isActive}) => ({textDecoration: isActive ? "underline" : "none"})}
                     >
                         ABOUT
@@ -78,7 +74,7 @@ function App() {
                 id="name"
                 className={"inverted " + (isHome(useLocation().pathname) ? "name-center" :
                     (isMobile ? "name-bottom-center" : "name-corner"))}
-                to="/adrianajoao"
+                to="/"
             >
                 ADRIANA JOÃO
             </NavLink>
@@ -87,7 +83,7 @@ function App() {
 }
 
 function isHome(url) {
-    return url === "/" || url === "/adrianajoao";
+    return url === "/" ;
 }
 
 function Index(props) {
@@ -107,7 +103,7 @@ function Index(props) {
                          setPreviewAlt("");
                      }}
                 >
-                    <NavLink to={`/adrianajoao/projects/${p.url}`} className="navlink">{p.title}</NavLink>
+                    <NavLink to={`/projects/${p.url}`} className="navlink">{p.title}</NavLink>
                 </div>)
             }
             <img
