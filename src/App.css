@@ -86,6 +86,7 @@ body {
     position: absolute;
     max-width: 15%;
     z-index: 1;
+    text-align: center;
 }
 
 .App {
