@@ -64,8 +64,8 @@
     width: 100%;
 }
 
-#project-title-mobile {
-    margin-bottom: 0.6em;
+.project-title-mobile {
+    margin-bottom: 1em;
 }
 
 #about-text, #about-tables, #project-text {
@@ -78,7 +78,7 @@
 
 body {
     color: white;
-    background-color: black;
+    background-color: #cccccc;
     font-family: "Nimbus Sans L", Helvetica, sans-serif;
 }
 

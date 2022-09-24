@@ -124,8 +124,8 @@ function Projects(props) {
                 <div>
                     {props.projects.map(p =>
                         <NavLink to={`${p.url}`} className="navlink">
-                            <div id="project-title-mobile" className="inverted">{p.title} ({p.year})</div>
-                            <img id="project-thumbnail-mobile" src={p.thumbnail} alt={p.title} width="100%"/>
+                            <img className="project-thumbnail-mobile" src={p.thumbnail} alt={p.title} width="100%"/>
+                            <div className="project-title-mobile inverted">{p.title} ({p.year})</div>
                         </NavLink>)}
                 </div>:
                 <table id="projects">
@@ -165,8 +165,10 @@ function Project(props) {
         <main>
             <div id="project-text" style={{minHeight: 50*3+"vh"}}>
                 <p id="project-title" className="inverted">{props.project.title}<br/>{props.project.year}</p>
-                <p dangerouslySetInnerHTML={{__html: props.project.about_en.media}}/>
-                <p dangerouslySetInnerHTML={{__html: props.project.about_en.synopsis}}/>
+                <div className="inverted">
+                    <p dangerouslySetInnerHTML={{__html: props.project.about_en.media}}/>
+                    <p dangerouslySetInnerHTML={{__html: props.project.about_en.synopsis}}/>
+                </div>
                 <div id="project-gallery">
                     {/*<ImageGallery
                         showPlayButton={false}
@@ -186,8 +188,10 @@ function Project(props) {
                     )}
 
                 </div>
-                <p dangerouslySetInnerHTML={{__html: props.project.about_en.published}}/>
-                <p dangerouslySetInnerHTML={{__html: props.project.about_en.description}}/>
+                <div className="inverted">
+                    <p dangerouslySetInnerHTML={{__html: props.project.about_en.published}}/>
+                    <p dangerouslySetInnerHTML={{__html: props.project.about_en.description}}/>
+                </div>
             </div>
         </main>
     );
@@ -197,7 +201,7 @@ function About() {
     return (
         <main>
             <div id="about-main">
-                <div id="about-text" className="mb-3em">
+                <div id="about-text" className="inverted mb-3em">
                     <p className="title">CV</p>
                     <p>
                         Adriana João<br/>
@@ -216,7 +220,7 @@ function About() {
                     </p>
                 </div>
 
-                <div id="about-tables">
+                <div id="about-tables" className="inverted">
                     <div id="education" className="mb-3em">
                         <p className="title">Education</p>
                         <p>2019-2021 (ongoing) MA in Multimedia Art: Moving Image, Faculty of Fine Arts of the University of
