@@ -1,5 +1,5 @@
 import './App.css';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {
     Routes,
     Route, NavLink, useLocation
@@ -88,6 +88,9 @@ function isHome(url) {
 function Index(props) {
     const [previewSrc, setPreviewSrc] = useState("data:,")
     const [previewAlt, setPreviewAlt] = useState("")
+    useEffect(() => {
+        document.title = "Adriana João"
+    }, [])
     return (
         <main>
             {props.projects.map(p =>
@@ -118,6 +121,9 @@ function Index(props) {
 function Projects(props) {
     const [previewSrc, setPreviewSrc] = useState("data:,")
     const [previewAlt, setPreviewAlt] = useState("")
+    useEffect(() => {
+        document.title = "Projetos - Adriana João"
+    }, [])
     return (
         <main>
             {isMobile ?
@@ -161,6 +167,9 @@ function Project(props) {
     function setMainHeight({target:img}) {
         document.getElementById("project-text").style.minHeight = 3*img.offsetHeight+"px";
     }
+    useEffect(() => {
+        document.title = props.project.title + " - Adriana João"
+    }, [])
     return (
         <main>
             <div id="project-text" style={{minHeight: 50*3+"vh"}}>
@@ -198,6 +207,9 @@ function Project(props) {
 }
 
 function About() {
+    useEffect(() => {
+        document.title = "Sobre - Adriana João"
+    }, [])
     return (
         <main>
             <div id="about-main">
