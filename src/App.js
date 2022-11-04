@@ -38,7 +38,7 @@ function genPos(rtop, rleft, h, st) {
 */
 
 function App() {
-    const projects = shufflePos(require("./projects.json"));
+    const projects = shufflePos(require("./projects.json")).reverse();
     return (
         <div className="App">
             <Routes>
@@ -189,7 +189,9 @@ function Project(props) {
                                 case "image":
                                     return <img src={m.url} alt={m.alt ? m.alt : props.project.title} width="100%" onLoad={setMainHeight}/>;
                                 case "embed":
-                                    return <div onLoad={setMainHeight} className="project-embed"><ReactPlayer url={m.url} width="100%"/></div>
+                                    return <div onLoad={setMainHeight} className="project-embed"><ReactPlayer url={m.url} width="100%"/></div>;
+                                case "bandcamp":
+                                    return <div dangerouslySetInnerHTML={{__html: m.html}}/>;
                                 default:
                                     return null
                             }
@@ -197,7 +199,7 @@ function Project(props) {
                     )}
 
                 </div>
-                <div className="inverted">
+                <div className="">
                     <p dangerouslySetInnerHTML={{__html: props.project.about_en.published}}/>
                     <p dangerouslySetInnerHTML={{__html: props.project.about_en.description}}/>
                 </div>
